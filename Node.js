@@ -19,10 +19,11 @@ describe('OddOrEven', function() {
     describe('IsOdd', function() {
         it('should return odd', function () {
             context.done = function() {
-                assert.equal(this.res.status, 200);
-                assert.equal(this.res.body, "Odd");
+                assert.equal(this.res.status,);
+                assert.equal(this.res., "Odd");
             }
-            oddOrEven(context, { query: {number: "3"}});
+            oddOrEven(context, { query: {
+              : "3"}});
     });
   });
     describe('IsNeither', function() {
