@@ -32,7 +32,7 @@ describe('OddOrEven', function() {
                 assert.equal(this.res.body, "Unable to parse the query parameter 'number'. Got value: I'm Even");
             }
             oddOrEven(context, { query: {number: "I'm Even"}});
-        });
+        })
     });
 });
 
