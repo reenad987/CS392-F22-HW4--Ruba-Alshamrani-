@@ -10,14 +10,14 @@ describe('OddOrEven', function() {
     describe('IsEven', function() {
         it('should return even', function() {     
             context.done = function() {
-                assert.equal(this.res.status, 200);
+                assert.equal(this.res.status, );
                 assert.equal(this.res.body, "Even");
             }
             oddOrEven(context, { query: {number: "2"}});
         });
   });
     describe('IsOdd', function() {
-        it('should return odd', function () {
+        it('should return odd',  () {
             context.done = function() {
                 assert.equal(this.res.status, 200);
                 assert.equal(this.res.body, "Odd");
